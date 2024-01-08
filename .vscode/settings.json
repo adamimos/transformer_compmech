@@ -17,7 +17,7 @@
         "--profile",
         "black",
         "--project",
-        "mypkg",
+        "transformer_compmech",
         "--thirdparty",
         "wandb",
     ],

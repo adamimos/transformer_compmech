@@ -20,9 +20,9 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from tqdm import tqdm
 
-from mypkg.log import logger
-from mypkg.models import MLP
-from mypkg.utils import save_model
+from transformer_compmech.log import logger
+from transformer_compmech.models import MLP
+from transformer_compmech.utils import save_model
 
 
 class ModelConfig(BaseModel):

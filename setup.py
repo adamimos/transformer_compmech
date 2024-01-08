@@ -8,13 +8,13 @@ else:
     requirements = []
 
 setup(
-    name="mypkg",
+    name="transformer_compmech",
     version="0.0.1",
-    description="Sample repository using Apollo best engineering practices",
+    description="Using Computational Mehcanics to understand Transformers",
     long_description=Path("README.md").read_text("utf-8"),
-    author="Apollo Research",
-    author_email="dan@apolloresearch.ai",
-    url="https://github.com/ApolloResearch/sample",
+    author="Adam Shai",
+    author_email="adamimos@gmail.com",
+    url="https://github.com/adamimos/transformer_compmech",
     packages=find_packages(),
     install_requires=requirements,
     extras_require={

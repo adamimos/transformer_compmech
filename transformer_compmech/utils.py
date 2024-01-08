@@ -5,7 +5,7 @@ import torch
 import yaml
 from torch import nn
 
-from mypkg.log import logger
+from transformer_compmech.log import logger
 
 
 def save_model(config_dict: Dict[str, Any], save_dir: Path, model: nn.Module, epoch: int) -> None:

@@ -3,8 +3,8 @@ from typing import Tuple
 import pytest
 from torch import nn
 
-from mypkg.models import MLP
-from mypkg.models.mlp import Layer
+from transformer_compmech.models import MLP
+from transformer_compmech.models.mlp import Layer
 
 
 @pytest.mark.parametrize(
